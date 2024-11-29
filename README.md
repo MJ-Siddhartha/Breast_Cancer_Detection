@@ -41,7 +41,8 @@ The AdaBoost classifier was evaluated using the Wisconsin Breast Cancer Dataset.
 ### Without Hyperparameter Tuning
 - Accuracy: 97%
 - Classification Report:
-                 precision    recall  f1-score   support
+  
+                  precision    recall  f1-score   support
   
             0         0.97      0.98      0.98       107
             1         0.97      0.95      0.96        64
@@ -57,12 +58,19 @@ The AdaBoost classifier was evaluated using the Wisconsin Breast Cancer Dataset.
 - **Best Score**: 97.8%  
 - **Accuracy**: 98%  
 - **Classification Report**:
-               precision    recall  f1-score   support
 
-             0       0.96      1.00      0.98       107
-             1       1.00      0.94      0.97        64
-      accuracy                           0.98       171
-      macro avg       0.98      0.98     0.97       171
-      weighted avg    0.98      0.98     0.98       171
+                  precision    recall  f1-score   support
+  
+            0         0.96      1.00      0.98       107
+            1         1.00      0.94      0.97        64
+  
+      accuracy                            0.98       171
+      macro avg       0.98      0.98      0.97       171
+      weighted avg    0.98      0.98      0.98       171
+## Predictions
+![image](https://github.com/user-attachments/assets/5db8d0d3-a0ad-4001-b6dc-498dc658dd28)
+![image](https://github.com/user-attachments/assets/cfade937-3984-4589-af7c-d947ba609729)
+![image](https://github.com/user-attachments/assets/06339154-a0e6-41bd-a208-2278f6a6d02c)
+
 
 The model performed slightly better with hyperparameter tuning, achieving higher precision and recall for both classes.  
