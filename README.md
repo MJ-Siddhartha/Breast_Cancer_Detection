@@ -67,10 +67,15 @@ The AdaBoost classifier was evaluated using the Wisconsin Breast Cancer Dataset.
       accuracy                            0.98       171
       macro avg       0.98      0.98      0.97       171
       weighted avg    0.98      0.98      0.98       171
+
+The model performed slightly better with hyperparameter tuning, achieving higher precision and recall for both classes.  
+
 ## Predictions
+### UI
 ![image](https://github.com/user-attachments/assets/5db8d0d3-a0ad-4001-b6dc-498dc658dd28)
+### Benign
 ![image](https://github.com/user-attachments/assets/cfade937-3984-4589-af7c-d947ba609729)
+### Malignant
 ![image](https://github.com/user-attachments/assets/06339154-a0e6-41bd-a208-2278f6a6d02c)
 
 
-The model performed slightly better with hyperparameter tuning, achieving higher precision and recall for both classes.  
